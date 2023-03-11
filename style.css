@@ -2,13 +2,43 @@ body {
   background-color: rgb(242, 238, 203);
 }
 
+p,
+h1,
+h2 {
+  text-align: center;
+}
+
+div.dcul {
+  text-align: center;
+}
+
+ul.ucul {
+  display: inline-block;
+  text-align: left;
+}
+
+
+.toptittle {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.topimg {
+  display: block;
+  height: 250px;
+  width: 250px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .footer {
     box-shadow:inset 0px 1px 0px 0px #a6827e;
     background:linear-gradient(to bottom, #7d5d3b 5%, #634b30 100%);
     background-color:#7d5d3b;
     border-radius:15px;
     border:1px solid #54381e;
-    display:inline-block;
+    display:incline-block;
     cursor:pointer;
     color:#ffffff;
     font-family:Arial;

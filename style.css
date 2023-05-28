@@ -33,7 +33,11 @@ ul.ucul {
   width: 250px;
   margin-left: auto;
   margin-right: auto;
+  border-style: solid;
+  border-width: 10px;
+  border-image: linear-gradient(to bottom, #7d5d3b 5%, #634b30 100%) 1;
 }
+
 
 .btn {
   border-radius: 15px;
